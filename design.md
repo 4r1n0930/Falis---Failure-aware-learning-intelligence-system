@@ -486,11 +486,11 @@ def calculate_consistency(attempts):
 ## 14. Implementation Notes
 
 ### 14.1 Technology Stack Recommendations
-- **Backend**: Python (FastAPI) or Node.js (Express)
-- **Database**: SQLite (offline) + PostgreSQL (optional online)
-- **Vector Store**: FAISS or ChromaDB
-- **AI**: OpenAI API or local LLM (Ollama)
-- **Frontend**: React or Vue.js
+- **Backend**: Python (FastAPI) 
+- **Database**: PostgreSQL (optional online)
+- **Vector Store**: ChromaDB
+- **AI**: OpenAI API or Gemini Api
+- **Frontend**: React or next.js + tailwind css
 
 ### 14.2 Development Phases
 1. **Phase 1**: Core inspection engine + local storage

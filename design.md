@@ -486,11 +486,12 @@ def calculate_consistency(attempts):
 ## 14. Implementation Notes
 
 ### 14.1 Technology Stack Recommendations
-- **Backend**: Python (FastAPI) 
-- **Database**: PostgreSQL (optional online)
-- **Vector Store**: ChromaDB
-- **AI**: OpenAI API or Gemini Api
-- **Frontend**: React or next.js + tailwind css
+- **Backend**: Python (FastAPI) deployed on EC2  
+- **Relational Database**: PostgreSQL hosted on Amazon RDS  
+- **Vector Store**: ChromaDB (modular, cloud-portable vector layer)  
+- **AI Layer**: LLM API with Amazon Bedrock–compatible design  
+- **Frontend**: React or Next.js hosted on Amazon S3 with CloudFront  
+- **Object Storage**: Amazon S3 for logs, artifacts, and system data
 
 ### 14.2 Development Phases
 1. **Phase 1**: Core inspection engine + local storage
